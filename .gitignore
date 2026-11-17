@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.env
+.env.*
+*.env
+*.log
+.preview-*
+test-results/
+playwright-report/
+
+# Private source registers, audit snapshots and geocoding working files.
+/docs/
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.ods
+*.csv
+
+# Local credentials and tool/hosting state.
+.aws/
+.ssh/
+.codex/
+.agents/
+.netlify/
+.wrangler/
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,2199 @@
+[
+  {
+    "id": "HA-001",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Avesta Salongen",
+    "city": "Avesta",
+    "country": "Sverige",
+    "address": "Myrgatan 10",
+    "postalCode": "774 31",
+    "originalAddress": "Myrgatan 10, 774 31 Avesta",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Myrgatan 10, 774 31 Avesta, Sverige",
+      "fetchedAt": "2026-11-17T10:05:04.568Z"
+    },
+    "people": [
+      {
+        "name": "Carin",
+        "educations": null
+      },
+      {
+        "name": "Anna",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.avestasalongen.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "0226-506 43"
+    },
+    "notes": "Namn tolkat från webbadress/logotyp.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 8
+    }
+  },
+  {
+    "id": "HA-002",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Cayenne – the passion of hair",
+    "city": "Farsta",
+    "country": "Sverige",
+    "address": "Ågestabroväg 32",
+    "postalCode": "123 50",
+    "originalAddress": "Ågestabroväg 32, 123 50 Farsta",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Ingen adress hittades.",
+      "query": "Ågestabroväg 32, 123 50 Farsta, Sverige",
+      "fetchedAt": "2026-11-17T10:05:05.825Z"
+    },
+    "people": [
+      {
+        "name": "Eva Eriksson",
+        "educations": null
+      },
+      {
+        "name": "Linnea Halldin",
+        "educations": null
+      },
+      {
+        "name": "Nathalie Haglund",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.cayenne-hair.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "08-408 203 73"
+    },
+    "notes": null,
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 9
+    }
+  },
+  {
+    "id": "HA-003",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "StudioSelindas",
+    "city": "Grythyttan",
+    "country": "Sverige",
+    "address": "Kyrkogatan 2",
+    "postalCode": null,
+    "originalAddress": "Kyrkogatan 2, Grythyttan",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Kyrkogatan 2, Grythyttan, Sverige",
+      "fetchedAt": "2026-11-17T10:05:07.226Z"
+    },
+    "people": [
+      {
+        "name": "Selinda Fellman",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.facebook.com/people/StudioSelindas/100063786565273/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-850 73 24"
+    },
+    "notes": null,
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; postnummer; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 10
+    }
+  },
+  {
+    "id": "HA-004",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Hamnsalongerna",
+    "city": "Gustavsberg",
+    "country": "Sverige",
+    "address": "Odelbergs väg 9b",
+    "postalCode": "134 40",
+    "originalAddress": "Odelbergs väg 9b, 134 40 Gustavsberg",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Odelbergs väg 9b, 134 40 Gustavsberg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:09.216Z"
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": "https://timma.se/salon/hamnsalongerna",
+      "email": null,
+      "phone": "08-570 343 07"
+    },
+    "notes": "Kontaktperson saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; kontaktperson; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 11
+    }
+  },
+  {
+    "id": "HA-005",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Hårservice",
+    "city": "Gustavsberg",
+    "country": "Sverige",
+    "address": "Algatan 1",
+    "postalCode": "134 40",
+    "originalAddress": "Algatan 1, 134 40 Gustavsberg",
+    "coordinates": {
+      "lat": 59.3248742,
+      "lng": 18.385449
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Algatan 1, 134 40 Gustavsberg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:10.552Z",
+      "matchedAddress": "Övre Stenhuset, 1, Algatan, Hästhagen, Hålludden, Gustavsberg, Värmdö kommun, Stockholms län, 134 40, Sverige",
+      "osm": {
+        "type": "way",
+        "id": 126443246
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Pia Heikkilä",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "http://www.bokadirekt.se/places/h%C3%A5rservice-6493",
+      "bookingUrl": "https://www.bokadirekt.se/places/h%C3%A5rservice-6493",
+      "email": null,
+      "phone": "08-570 343 07 eller 070-452 24 15"
+    },
+    "notes": "Salongsnamn från visad bokningslänk. Samma fasta telefon som Hamnsalongerna, annan adress. Kontrollera eventuell koppling.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 12
+    }
+  },
+  {
+    "id": "HA-006",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Rebecka Pernvik Head Spa AB",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Hvitfeldtsgatan 12",
+    "postalCode": "411 20",
+    "originalAddress": "Hvitfeldtsgatan 12, 411 20 Göteborg",
+    "coordinates": {
+      "lat": 57.7025297,
+      "lng": 11.9594815
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Hvitfeldtsgatan 12, 411 20 Göteborg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:11.857Z",
+      "matchedAddress": "12, Hvitfeldtsgatan, Kungshöjd, Inom Vallgraven, Centrum, Göteborg, Göteborgs Stad, Västra Götalands län, 411 20, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 2316114064
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Rebecka Pernvik",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.pernvikheadspa.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-938 01 40"
+    },
+    "notes": "Personnamn från verksamhetsnamnet.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 13
+    }
+  },
+  {
+    "id": "HA-007",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Anita Oskarsson",
+    "city": "Munkebäck",
+    "country": "Sverige",
+    "address": "Lilla munkebäcksgatan 7D",
+    "postalCode": "416 72",
+    "originalAddress": "Lilla munkebäcksgatan 7D, 416 72 Göteborg",
+    "coordinates": {
+      "lat": 57.7231196,
+      "lng": 12.0217695
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Lilla munkebäcksgatan 7D, 416 72 Göteborg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:13.576Z",
+      "matchedAddress": "7D, Lilla Munkebäcksgatan, Kålltorp, Centrum, Göteborg, Göteborgs Stad, Västra Götalands län, 416 72, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 4428698712
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Anita Oskarsson",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://anitafrisor.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "0705-258 702"
+    },
+    "notes": "Fullständigt salongsnamn behöver bekräftas. Sidan anger Munkebäck som ort och Göteborg i adressen.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 14
+    }
+  },
+  {
+    "id": "HA-008",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Shine Klinik AB",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Wieselgrensplatsen 11",
+    "postalCode": "417 17",
+    "originalAddress": "Wieselgrensplatsen 11, 417 17 Göteborg",
+    "coordinates": {
+      "lat": 57.7216651,
+      "lng": 11.9363804
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Wieselgrensplatsen 11, 417 17 Göteborg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:14.929Z",
+      "matchedAddress": "Getingtorget, 11, Wieselgrensplatsen, Backaplan, Kvillebäcken, Hisingen, Göteborg, Göteborgs Stad, Västra Götalands län, 417 17, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 2466927536
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Mozhdeh Ahmadi",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": "https://www.bokadirekt.se/places/shine-klinik-ab-43845",
+      "email": null,
+      "phone": "072-003 00 48"
+    },
+    "notes": "Verksamhetsnamn från bokningslänk.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 15
+    }
+  },
+  {
+    "id": "HA-009",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Headspa Göteborg",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Vegagatan 54",
+    "postalCode": "413 11",
+    "originalAddress": "Vegagatan 54, 413 11 Göteborg",
+    "coordinates": {
+      "lat": 57.6916232,
+      "lng": 11.9483719
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Vegagatan 54, 413 11 Göteborg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:16.903Z",
+      "matchedAddress": "FreeFoot, 54, Vegagatan, Masthugget, Centrum, Göteborg, Göteborgs Stad, Västra Götalands län, 413 11, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 10908605720
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Alexandra Altring Mendoza",
+        "educations": null
+      },
+      {
+        "name": "Amanda Edvardsson",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "http://www.headspag%C3%B6teborg.se",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "031-18 18 34"
+    },
+    "notes": "Arbetsnamn från webbadress. Salongsnamn behöver bekräftas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 16
+    }
+  },
+  {
+    "id": "HA-010",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Beauty Corner",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "address": "Södra vägen 57",
+    "postalCode": "412 54",
+    "originalAddress": "Södra vägen 57, 412 54 Göteborg",
+    "coordinates": {
+      "lat": 57.6968771,
+      "lng": 11.9849528
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Södra vägen 57, 412 54 Göteborg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:19.991Z",
+      "matchedAddress": "57, Södra Vägen, Lorensberg, Centrum, Göteborg, Göteborgs Stad, Västra Götalands län, 412 54, Sverige",
+      "osm": {
+        "type": "way",
+        "id": 203777006
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "http://www.bcorner.se/",
+      "bookingUrl": "https://www.bokadirekt.se/places/salong-beauty-corner-13490",
+      "email": null,
+      "phone": "072-258 49 51"
+    },
+    "notes": "Kontaktperson saknas. Instagram: @Salongbeautycorner.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; kontaktperson; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 17
+    }
+  },
+  {
+    "id": "HA-011",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Salong Focus on You",
+    "city": "Helsingborg",
+    "country": "Sverige",
+    "address": "Nedre Långvinkelsgatan 79",
+    "postalCode": "252 34",
+    "originalAddress": "Nedre Långvinkelsgatan 79, 252 34 Helsingborg",
+    "coordinates": {
+      "lat": 56.0503054,
+      "lng": 12.6999874
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Nedre Långvinkelsgatan 79, 252 34 Helsingborg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:21.245Z",
+      "matchedAddress": "79, Nedre Långvinkelsgatan, Slottshöjden, Helsingborg, Helsingborgs kommun, Skåne län, 252 34, Sverige",
+      "osm": {
+        "type": "way",
+        "id": 89486712
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Ellinor Larsson",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://salongfocusonyou.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "042-16 04 34"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 18
+    }
+  },
+  {
+    "id": "HA-012",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Lindberg & Svan",
+    "city": "Huddinge",
+    "country": "Sverige",
+    "address": "Stationsvägen 27",
+    "postalCode": "141 40",
+    "originalAddress": "Stationsvägen 27, 141 40 Huddinge",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Husnumret kan inte matchas exakt. Kartunderlaget anger 25-27A, 27B, 27A; källan anger 27.",
+      "query": "Stationsvägen 27, 141 40 Huddinge, Sverige",
+      "fetchedAt": "2026-11-17T10:05:22.575Z"
+    },
+    "people": [
+      {
+        "name": "Josefin Lindberg",
+        "educations": null
+      },
+      {
+        "name": "Jessica Svan",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://lindbergsvan.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "08-774 38 88"
+    },
+    "notes": "Namn tolkat från webbadress/logotyp.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 19
+    }
+  },
+  {
+    "id": "HA-013",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Making Beauty",
+    "city": "Härnösand",
+    "country": "Sverige",
+    "address": "Pumpsbacksgatan 13",
+    "postalCode": "871 31",
+    "originalAddress": "Pumpsbacksgatan 13, 871 31 Härnösand",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Ingen adress hittades.",
+      "query": "Pumpsbacksgatan 13, 871 31 Härnösand, Sverige",
+      "fetchedAt": "2026-11-17T10:05:23.783Z"
+    },
+    "people": [
+      {
+        "name": "Inger Brink",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.facebook.com/people/Making-Beauty-H%C3%A4rn%C3%B6sand/100063798150568/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-203 18 59"
+    },
+    "notes": null,
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 20
+    }
+  },
+  {
+    "id": "HA-014",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Linköpings Laserklinik",
+    "city": "Linköping",
+    "country": "Sverige",
+    "address": "Emriks Gata 4",
+    "postalCode": "582 25",
+    "originalAddress": "Emriks Gata 4, 582 25 Linköping",
+    "coordinates": {
+      "lat": 58.4053287,
+      "lng": 15.6268434
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Emriks Gata 4, 582 25 Linköping, Sverige",
+      "fetchedAt": "2026-11-17T10:05:25.118Z",
+      "matchedAddress": "4, Emriks gata, Innerstaden, Linköpings Sankt Lars, Linköping, Linköpings kommun, Östergötlands län, 582 25, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 4714141263
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": "https://www.bokadirekt.se/places/linkoping-laserklinik-18778#staff",
+      "email": null,
+      "phone": "073-768 07 01"
+    },
+    "notes": "Kontaktperson saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; kontaktperson; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 21
+    }
+  },
+  {
+    "id": "HA-015",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Clipzo",
+    "city": "Lomma",
+    "country": "Sverige",
+    "address": "Hamntorget 2H",
+    "postalCode": "234 40",
+    "originalAddress": "Hamntorget 2H, 234 40 Lomma",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Hamntorget 2H, 234 40 Lomma, Sverige",
+      "fetchedAt": "2026-11-17T10:05:26.672Z"
+    },
+    "people": [
+      {
+        "name": "Vanja",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://clipzo.nu/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-521 48 58"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 22
+    }
+  },
+  {
+    "id": "HA-016",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Mila Hoti",
+    "city": "Malmö",
+    "country": "Sverige",
+    "address": "Drottninggatan 1 AD",
+    "postalCode": "212 11",
+    "originalAddress": "Drottninggatan 1 AD, 212 11 Malmö",
+    "coordinates": {
+      "lat": 55.6077294,
+      "lng": 13.0208406
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Drottninggatan 1 AD, 212 11 Malmö, Sverige",
+      "fetchedAt": "2026-11-17T10:05:29.158Z",
+      "matchedAddress": "1ad, Drottninggatan, Slussen, Norr, Malmö, Malmö kommun, Skåne län, 212 11, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 7006776123
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Mila Hoti",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": "japaneseheadspamalmo@gmail.com",
+      "phone": "070-480 80 59"
+    },
+    "notes": "Salongsnamn behöver bekräftas. E-post antyder Japanese Head Spa Malmö.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 23
+    }
+  },
+  {
+    "id": "HA-017",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Klippt och Skuret",
+    "city": "Mölndal",
+    "country": "Sverige",
+    "address": "Göteborgsvägen 25",
+    "postalCode": "431 30",
+    "originalAddress": "Göteborgsvägen 25, 431 30 Mölndal",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 431 30, kartunderlaget 431 35.",
+      "query": "Göteborgsvägen 25, 431 30 Mölndal, Sverige",
+      "fetchedAt": "2026-11-17T10:05:30.465Z"
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.facebook.com/p/Klippt-Skuret-100063451785772/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "031-27 60 33"
+    },
+    "notes": "Kontaktperson saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; kontaktperson; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 24
+    }
+  },
+  {
+    "id": "HA-018",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Julliets frisör",
+    "city": "Norrköping",
+    "country": "Sverige",
+    "address": "Knäppingsborgsgatan 38",
+    "postalCode": "602 26",
+    "originalAddress": "Knäppingsborgsgatan 38, 602 26 Norrköping",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Knäppingsborgsgatan 38, 602 26 Norrköping, Sverige",
+      "fetchedAt": "2026-11-17T10:05:32.220Z"
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://jullietsfrisor.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "011-10 11 50"
+    },
+    "notes": "Kontaktperson saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; kontaktperson; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 25
+    }
+  },
+  {
+    "id": "HA-019",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Ekofrisören",
+    "city": "Norrköping",
+    "country": "Sverige",
+    "address": "Bredgatan 2",
+    "postalCode": "602 21",
+    "originalAddress": "Bredgatan 2, 602 21 Norrköping",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Källan anger särskild entré via Sandgatan 1 och bron Spången. Rätt besöksentré behöver bekräftas.",
+      "query": "Bredgatan 2, 602 21 Norrköping, Sverige",
+      "fetchedAt": null
+    },
+    "people": [
+      {
+        "name": "Jenny Andersson",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.ekofrisoren.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "011-16 80 40"
+    },
+    "notes": "Namn från webbadress. Besöksinformation: i hälsobutiken Vårt Alternativ, ingång via Sandgatan 1 och bron Spången. Kontrollera rätt kartentré.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 26
+    }
+  },
+  {
+    "id": "HA-020",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Naturligtvis Salomonssons",
+    "city": "Nässjö",
+    "country": "Sverige",
+    "address": "Mellangatan 2",
+    "postalCode": "571 41",
+    "originalAddress": "Mellangatan 2, 571 41 Nässjö",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Mellangatan 2, 571 41 Nässjö, Sverige",
+      "fetchedAt": "2026-11-17T10:05:33.648Z"
+    },
+    "people": [
+      {
+        "name": "Maria Salomonsson",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "http://www.naturligtvissalomonssons.se",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-381 03 90"
+    },
+    "notes": "Namn från webbadress/logotyp.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 27
+    }
+  },
+  {
+    "id": "HA-021",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Hair by Ann-Sofie",
+    "city": "Resö",
+    "country": "Sverige",
+    "address": "Gamla Holmsbacksvägen 14",
+    "postalCode": "457 97",
+    "originalAddress": "Gamla Holmsbacksvägen 14, 457 97 Resö, Tanum",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Ingen adress hittades.",
+      "query": "Gamla Holmsbacksvägen 14, 457 97 Resö, Tanum, Sverige",
+      "fetchedAt": "2026-11-17T10:05:34.884Z"
+    },
+    "people": [
+      {
+        "name": "Ann-Sofie",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "http://www.hairbyannsofie.com/",
+      "bookingUrl": null,
+      "email": "boka@hairbyannsofie.com",
+      "phone": null
+    },
+    "notes": "Namn från webbadress. Telefon saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "telefon; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 28
+    }
+  },
+  {
+    "id": "HA-022",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Skönhetsspecialisten",
+    "city": "Skärholmen",
+    "country": "Sverige",
+    "address": "Vårbergsplan 23",
+    "postalCode": "127 43",
+    "originalAddress": "Vårbergsplan 23, 127 43 Skärholmen",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Vårbergsplan 23, 127 43 Skärholmen, Sverige",
+      "fetchedAt": "2026-11-17T10:05:36.626Z"
+    },
+    "people": [
+      {
+        "name": "Sandra Nisan",
+        "educations": null
+      },
+      {
+        "name": "Ranin Bashir",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.skonhetsspecialisten.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "076-557 73 33"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 29
+    }
+  },
+  {
+    "id": "HA-023",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Wild and Well",
+    "city": "Sköldinge",
+    "country": "Sverige",
+    "address": "Villahagen Solhem 2",
+    "postalCode": "641 99",
+    "originalAddress": "Villahagen Solhem 2, 641 99 Sköldinge",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Ingen adress hittades.",
+      "query": "Villahagen Solhem 2, 641 99 Sköldinge, Sverige",
+      "fetchedAt": "2026-11-17T10:05:38.021Z"
+    },
+    "people": [
+      {
+        "name": "Linda Markevall",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.wildandwell.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "073-501 71 66"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 30
+    }
+  },
+  {
+    "id": "HA-024",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Fru Söder",
+    "city": "Stockholm (Vasastan)",
+    "country": "Sverige",
+    "address": "Dalagatan 68",
+    "postalCode": "113 24",
+    "originalAddress": "Dalagatan 68, 113 24 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 113 24, kartunderlaget 113 23.",
+      "query": "Dalagatan 68, 113 24 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:39.337Z"
+    },
+    "people": [
+      {
+        "name": "Anna Söder",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.frusoder.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-961 03 91"
+    },
+    "notes": "Namn från webbadress. Vasastan.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 31
+    }
+  },
+  {
+    "id": "HA-025",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Extend",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Östgötagatan 55",
+    "postalCode": "116 25",
+    "originalAddress": "Östgötagatan 55, 116 25 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 116 25, kartunderlaget 116 23.",
+      "query": "Östgötagatan 55, 116 25 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:40.735Z"
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://extend.nu",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "08-641 49 59"
+    },
+    "notes": "Kontaktperson saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; kontaktperson; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 32
+    }
+  },
+  {
+    "id": "HA-026",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Strandbergskliniken",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Hälsingegatan 2",
+    "postalCode": "113 23",
+    "originalAddress": "Hälsingegatan 2, 113 23 Stockholm",
+    "coordinates": {
+      "lat": 59.3414549,
+      "lng": 18.0439244
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Hälsingegatan 2, 113 23 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:42.135Z",
+      "matchedAddress": "2, Hälsingegatan, Sabbatsberg, Vasastaden, Norra innerstadens stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 113 23, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 778311291
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Anki Strandberg",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.strandbergskliniken.se",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-755 58 62"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 33
+    }
+  },
+  {
+    "id": "HA-027",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Kim Beauty Room",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Torsgatan 49 2",
+    "postalCode": "113 37",
+    "originalAddress": "Torsgatan 49 2, 113 37 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Adressen ”Torsgatan 49 2” är tvetydig (gatunummer/våning). Behöver klarläggas före placering.",
+      "query": "Torsgatan 49 2, 113 37 Stockholm, Sverige",
+      "fetchedAt": null
+    },
+    "people": null,
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": "https://www.bokadirekt.se/places/kim-beauty-room-asian-headspa-therapy-53947",
+      "email": null,
+      "phone": null
+    },
+    "notes": "Telefon och personnamn saknas. Adressen står som ”Torsgatan 49 2”; kontrollera gatunummer/våning.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "telefon; e-post; kontaktperson; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 34
+    }
+  },
+  {
+    "id": "HA-028",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Marija & Nada AB / Mingle Hair & Schampoo",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Skånegatan 90",
+    "postalCode": "116 37",
+    "originalAddress": "Skånegatan 90, 116 37 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 116 37, kartunderlaget 116 40.",
+      "query": "Skånegatan 90, 116 37 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:43.486Z"
+    },
+    "people": [
+      {
+        "name": "Marija",
+        "educations": null
+      },
+      {
+        "name": "Nada",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": null,
+      "phone": null
+    },
+    "notes": "Båda verksamhetsnamnen står på sidan. Telefon och webblänk saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "telefon; e-post; bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 35
+    }
+  },
+  {
+    "id": "HA-029",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "L-2",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Löjtnantsgatan 2",
+    "postalCode": "115 50",
+    "originalAddress": "Löjtnantsgatan 2, 115 50 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Löjtnantsgatan 2, 115 50 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:45.659Z"
+    },
+    "people": [
+      {
+        "name": "Elsa Söderlund",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://l-2.se/",
+      "bookingUrl": null,
+      "email": "elsa@l-2.se",
+      "phone": "08-50 00 56 56"
+    },
+    "notes": "Namn från webbadress. Fullständigt salongsnamn behöver bekräftas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 36
+    }
+  },
+  {
+    "id": "HA-030",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Beauty Treatments",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Vartoftagatan 47A",
+    "postalCode": "118 30",
+    "originalAddress": "Vartoftagatan 47A, 118 30 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Husnumret kan inte matchas exakt. Kartunderlaget anger 47A&B; källan anger 47A.",
+      "query": "Vartoftagatan 47A, 118 30 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:47.783Z"
+    },
+    "people": [
+      {
+        "name": "Jutatip Samran",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070 546 53 24"
+    },
+    "notes": "Sidan skriver personnamnet ”JutatipSamran”; kontrollera stavning.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 37
+    }
+  },
+  {
+    "id": "HA-031",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Woo Head Spa",
+    "city": "Stockholm",
+    "country": "Sverige",
+    "address": "Hammarby Allé 83",
+    "postalCode": "120 63",
+    "originalAddress": "Hammarby Allé 83, 120 63 Stockholm",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 120 63, kartunderlaget 120 62.",
+      "query": "Hammarby Allé 83, 120 63 Stockholm, Sverige",
+      "fetchedAt": "2026-11-17T10:05:49.068Z"
+    },
+    "people": [
+      {
+        "name": "Jenny Thorsell",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "http://www.wooheadspa.se/",
+      "bookingUrl": null,
+      "email": "kontakt@wooheadspa.se",
+      "phone": "073-852 98 38"
+    },
+    "notes": "Namn från webbadress/logotyp.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 38
+    }
+  },
+  {
+    "id": "HA-032",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Stocksunds Klippotek",
+    "city": "Stocksund",
+    "country": "Sverige",
+    "address": "Stockholmsvägen 45",
+    "postalCode": "182 78",
+    "originalAddress": "Stockholmsvägen 45, 182 78 Stocksund",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 182 78, kartunderlaget 182 07.",
+      "query": "Stockholmsvägen 45, 182 78 Stocksund, Sverige",
+      "fetchedAt": "2026-11-17T10:05:50.459Z"
+    },
+    "people": [
+      {
+        "name": "Dania Shamoon",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": null,
+      "phone": "08- 85 44 35"
+    },
+    "notes": "Webb-/bokningslänk saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 39
+    }
+  },
+  {
+    "id": "HA-033",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Systrarnafix salong",
+    "city": "Sundbyberg",
+    "country": "Sverige",
+    "address": "Marieborgsgatan 6",
+    "postalCode": "174 62",
+    "originalAddress": "Marieborgsgatan 6, 174 62 Sundbyberg",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Marieborgsgatan 6, 174 62 Sundbyberg, Sverige",
+      "fetchedAt": "2026-11-17T10:05:51.813Z"
+    },
+    "people": [
+      {
+        "name": "Dilek Cigel",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": "dcigel@hotmail.se",
+      "phone": null
+    },
+    "notes": "Telefon och webb-/bokningslänk saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "telefon; bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 40
+    }
+  },
+  {
+    "id": "HA-034",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Therese Klippare / Sjutton/17",
+    "city": "Södertälje",
+    "country": "Sverige",
+    "address": "Nedre Torekällgatan 17",
+    "postalCode": "151 73",
+    "originalAddress": "Nedre Torekällgatan 17, 151 73 Södertälje",
+    "coordinates": {
+      "lat": 59.1944022,
+      "lng": 17.6237606
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Nedre Torekällgatan 17, 151 73 Södertälje, Sverige",
+      "fetchedAt": "2026-11-17T10:05:53.108Z",
+      "matchedAddress": "17, Nedre Torekällgatan, Tälje, Södertälje, Södertälje kommun, Stockholms län, 151 73, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 14006227610
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Therese Olsson",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": "therese_klippare@hotmail.com",
+      "phone": "08-550 760 33"
+    },
+    "notes": "Båda namnen står på sidan. Webb-/bokningslänk saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 41
+    }
+  },
+  {
+    "id": "HA-035",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Hårateljén",
+    "city": "Trosa",
+    "country": "Sverige",
+    "address": "Östra Långatan 37D",
+    "postalCode": "619 30",
+    "originalAddress": "Östra Långatan 37D, 619 30 Trosa",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Ingen adress hittades.",
+      "query": "Östra Långatan 37D, 619 30 Trosa, Sverige",
+      "fetchedAt": "2026-11-17T10:05:55.386Z"
+    },
+    "people": [
+      {
+        "name": "Maria Vikström",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://haarateljen.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "0156-102 94"
+    },
+    "notes": "Namn från webbadress/logotyp.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 42
+    }
+  },
+  {
+    "id": "HA-036",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Hårstället Täby Park",
+    "city": "Täby",
+    "country": "Sverige",
+    "address": "Boulevarden 52",
+    "postalCode": "183 74",
+    "originalAddress": "Boulevarden 52, 183 74 Täby",
+    "coordinates": {
+      "lat": 59.4445692,
+      "lng": 18.0877358
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Boulevarden 52, 183 74 Täby, Sverige",
+      "fetchedAt": "2026-11-17T10:05:57.134Z",
+      "matchedAddress": "52, Boulevarden, Täby park, Täby, Täby kommun, Stockholms län, 183 74, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 6917033499
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Anna-Lena Klang",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://harstallettabypark.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "070-994 94 74"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 43
+    }
+  },
+  {
+    "id": "HA-037",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Choices Uppsala",
+    "city": "Uppsala",
+    "country": "Sverige",
+    "address": "Drottninggatan 2",
+    "postalCode": "753 10",
+    "originalAddress": "Drottninggatan 2, 753 10 Uppsala",
+    "coordinates": {
+      "lat": 59.8581703,
+      "lng": 17.6383373
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Drottninggatan 2, 753 10 Uppsala, Sverige",
+      "fetchedAt": "2026-11-17T10:05:58.403Z",
+      "matchedAddress": "Choices, 2, Drottninggatan, Främre Luthagen, Centrum, Uppsala, Uppsala kommun, Uppsala län, 753 10, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 719217375
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Malin Slibi",
+        "educations": null
+      },
+      {
+        "name": "Sofie Pohjanen",
+        "educations": null
+      },
+      {
+        "name": "Karolina Åhman",
+        "educations": null
+      },
+      {
+        "name": "Märta Lindroos",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": null,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.choicesuppsala.se",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "018-10 28 88"
+    },
+    "notes": "Namn från webbadress/logotyp. Ort hämtad ur adressen.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 44
+    }
+  },
+  {
+    "id": "HA-038",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Head Spa",
+    "city": "Vårby",
+    "country": "Sverige",
+    "address": "Mogårdsvägen 13",
+    "postalCode": "143 42",
+    "originalAddress": "Mogårdsvägen 13, 143 42 Vårby",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Mogårdsvägen 13, 143 42 Vårby, Sverige",
+      "fetchedAt": "2026-11-17T10:05:59.710Z"
+    },
+    "people": [
+      {
+        "name": "Esma Alp",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": "https://www.bokadirekt.se/places/head-spa-55187",
+      "email": null,
+      "phone": null
+    },
+    "notes": "Namn från bokningslänk. Telefon saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "telefon; e-post; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 45
+    }
+  },
+  {
+    "id": "HA-039",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Wikström & Norrman",
+    "city": "Vänersborg",
+    "country": "Sverige",
+    "address": "Edsgatan 14",
+    "postalCode": "462 33",
+    "originalAddress": "Edsgatan 14, 462 33 Vänersborg",
+    "coordinates": {
+      "lat": 58.379401,
+      "lng": 12.322216
+    },
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "address-match",
+      "reason": "Gata, husnummer, land och postnummer (eller ort där postnummer saknas) stämmer. Verksamhet och entré är inte aktualitetskontrollerade.",
+      "query": "Edsgatan 14, 462 33 Vänersborg, Sverige",
+      "fetchedAt": "2026-11-17T10:06:01.445Z",
+      "matchedAddress": "Ost Hallen, 14, Edsgatan, Nordstan, Vänersborg, Vänersborgs kommun, Västra Götalands län, 462 33, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 4353770385
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    },
+    "people": [
+      {
+        "name": "Maria Norrman",
+        "educations": null
+      },
+      {
+        "name": "Anki Wikström",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.wikstromnorrman.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "0521-63 600"
+    },
+    "notes": "Namn tolkat från webbadress/logotyp.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 46
+    }
+  },
+  {
+    "id": "HA-040",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Head Harmony AB",
+    "city": "Västra Frölunda",
+    "country": "Sverige",
+    "address": "Tamburingatan 5",
+    "postalCode": "421 51",
+    "originalAddress": "Tamburingatan 5, 421 51 Västra frölunda",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 421 51, kartunderlaget 421 46.",
+      "query": "Tamburingatan 5, 421 51 Västra frölunda, Sverige",
+      "fetchedAt": "2026-11-17T10:06:02.833Z"
+    },
+    "people": [
+      {
+        "name": "Jasmin Prathan",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": null,
+      "bookingUrl": null,
+      "email": null,
+      "phone": "073-788 61 06"
+    },
+    "notes": "Webb-/bokningslänk saknas.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); webb-/kontaktlänk; utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 47
+    }
+  },
+  {
+    "id": "HA-041",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Klipphörnan Ydre",
+    "city": "Ydre",
+    "country": "Sverige",
+    "address": "Hagagatan 1B",
+    "postalCode": "573 74",
+    "originalAddress": "Hagagatan 1B, 573 74 Ydre",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+      "query": "Hagagatan 1B, 573 74 Ydre, Sverige",
+      "fetchedAt": "2026-11-17T10:06:04.338Z"
+    },
+    "people": [
+      {
+        "name": "Lisabeth",
+        "educations": null
+      },
+      {
+        "name": "Sanna",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": null,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.klipphornanydre.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "0381-601 92"
+    },
+    "notes": "Namn från webbadress.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 48
+    }
+  },
+  {
+    "id": "HA-042",
+    "isDemo": false,
+    "isPreliminary": true,
+    "name": "Skönhetsmagasinet",
+    "city": "Mariehamn, Åland",
+    "country": "Finland",
+    "address": "Torggatan 1",
+    "postalCode": "221 00",
+    "originalAddress": "Torggatan 1, 221 00 Mariehamn",
+    "coordinates": null,
+    "geocoding": {
+      "provider": "Nominatim / OpenStreetMap",
+      "status": "needs-review",
+      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 221 00, kartunderlaget 22101.",
+      "query": "Torggatan 1, 221 00 Mariehamn, Finland",
+      "fetchedAt": "2026-11-17T10:06:05.771Z"
+    },
+    "people": [
+      {
+        "name": "Evelina",
+        "educations": null
+      }
+    ],
+    "services": null,
+    "daikonRetailer": null,
+    "legacy": {
+      "diplomaSymbol": true,
+      "daikonSymbol": true,
+      "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
+    },
+    "contact": {
+      "website": "https://www.klipphornanydre.se/",
+      "bookingUrl": null,
+      "email": null,
+      "phone": "+358 40 1680082"
+    },
+    "notes": "Namn från webbadress. Mariehamn på Åland, Finland; inte Sverige.",
+    "verification": {
+      "status": "Behöver bekräftas",
+      "confirmedAt": null,
+      "needsConfirmation": "e-post; bokningslänk (om sådan finns); utbildning och nivå per person; aktuella tjänster; DAIKON-status; kartkoordinater; bekräftelse av publicerade uppgifter"
+    },
+    "source": {
+      "file": "Haranalys_salongregister.xlsx",
+      "sheet": "Salongsregister",
+      "row": 49
+    }
+  }
+]
