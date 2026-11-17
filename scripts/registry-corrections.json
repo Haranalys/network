@@ -1,0 +1,12 @@
+[
+  {
+    "id": "HA-042",
+    "field": "contact.website",
+    "expectedSourceValue": "https://www.klipphornanydre.se/",
+    "value": "https://skonhetsmagasinet.ax/",
+    "sourceUrl": "https://www.harinspiration.se/frisornatverk.html",
+    "verifiedUrl": "https://skonhetsmagasinet.ax/kontakta-oss/",
+    "reason": "Excelcell K49 har samma länk som föregående salong (K48). Frisörnätverkets ursprungssida och salongens egen webbplats bekräftar skonhetsmagasinet.ax.",
+    "reviewedOn": "2026-11-17"
+  }
+]

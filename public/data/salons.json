@@ -62,13 +62,36 @@
     "address": "Ågestabroväg 32",
     "postalCode": "123 50",
     "originalAddress": "Ågestabroväg 32, 123 50 Farsta",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.241707,
+      "lng": 18.1036149
+    },
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Ingen adress hittades.",
-      "query": "Ågestabroväg 32, 123 50 Farsta, Sverige",
-      "fetchedAt": "2026-11-17T10:05:05.825Z"
+      "status": "address-match",
+      "reason": "Salongens egen kontaktsida bekräftar gata, nummer och ort. Nominatim har en namngiven frisörpunkt Cayenne på exakt Ågesta Broväg 32 i Farsta stadsdelsområde. Alternativ huspunkt ligger cirka fem meter bort och gäller samma adress.",
+      "query": "https://nominatim.openstreetmap.org/search?street=%C3%85gesta+Brov%C3%A4g+32&postalcode=123+50&countrycodes=se&format=jsonv2&addressdetails=1&limit=5&accept-language=sv",
+      "fetchedAt": "2026-11-17T13:36:36.545Z",
+      "matchedAddress": "Cayenne, 32, Ågesta Broväg, Larsboda, Farsta stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 123 43, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 1204854875
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "review": {
+        "sourceUrl": "https://www.cayenne-hair.se/kontakta-oss",
+        "sourceAddress": "Ågesta Broväg 32, 123 50 Farsta",
+        "reviewedOn": "2026-11-17",
+        "warning": "Nominatim anger postnummer 123 43; registret och salongens kontaktsida anger 123 50. Gatunamnets mellanrum skiljer sig från registret.",
+        "entranceVerified": false
+      },
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Ingen adress hittades.",
+        "query": "Ågestabroväg 32, 123 50 Farsta, Sverige",
+        "fetchedAt": "2026-11-17T10:05:05.825Z"
+      }
     },
     "people": [
       {
@@ -107,6 +130,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 9
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1204854875",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -168,13 +201,21 @@
     "address": "Odelbergs väg 9b",
     "postalCode": "134 40",
     "originalAddress": "Odelbergs väg 9b, 134 40 Gustavsberg",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.3245895,
+      "lng": 18.3834483
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
-      "query": "Odelbergs väg 9b, 134 40 Gustavsberg, Sverige",
-      "fetchedAt": "2026-11-17T10:05:09.216Z"
+      "provider": "OpenStreetMap",
+      "status": "approximate-position",
+      "reason": "Namngiven frisör-POI Hamnsalongerna vid Odelbergs väg i Gustavsberg. Exakt entré/husnummer 9B är inte verifierad.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+        "query": "Odelbergs väg 9b, 134 40 Gustavsberg, Sverige",
+        "fetchedAt": "2026-11-17T10:05:09.216Z"
+      }
     },
     "people": null,
     "services": null,
@@ -200,6 +241,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 11
+    },
+    "position": {
+      "precision": "approximate",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2954282771",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-poi-or-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://timma.se/salon/hamnsalongerna"
+      ],
+      "reviewNote": "Namngiven frisör-POI Hamnsalongerna vid Odelbergs väg i Gustavsberg. Exakt entré/husnummer 9B är inte verifierad."
     }
   },
   {
@@ -258,6 +313,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 12
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/126443246",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -316,6 +381,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 13
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2316114064",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -374,6 +449,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 14
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4428698712",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -432,6 +517,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 15
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2466927536",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -494,6 +589,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 16
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10908605720",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -547,6 +652,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 17
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/203777006",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -605,6 +720,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 18
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/89486712",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -617,13 +742,21 @@
     "address": "Stationsvägen 27",
     "postalCode": "141 40",
     "originalAddress": "Stationsvägen 27, 141 40 Huddinge",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.2502193,
+      "lng": 17.99815175
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Husnumret kan inte matchas exakt. Kartunderlaget anger 25-27A, 27B, 27A; källan anger 27.",
-      "query": "Stationsvägen 27, 141 40 Huddinge, Sverige",
-      "fetchedAt": "2026-11-17T10:05:22.575Z"
+      "provider": "OpenStreetMap building and entrances",
+      "status": "approximate-position",
+      "reason": "Salongens egen adress är Stationsvägen 27. OSM-entréerna 27A och 27B är två intilliggande noder i samma byggnad 40927514. Placerad mellan dessa entréer på byggnadens fasad, inte vid första träffen eller gatumitt. A/B behöver bekräftas.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Husnumret kan inte matchas exakt. Kartunderlaget anger 25-27A, 27B, 27A; källan anger 27.",
+        "query": "Stationsvägen 27, 141 40 Huddinge, Sverige",
+        "fetchedAt": "2026-11-17T10:05:22.575Z"
+      }
     },
     "people": [
       {
@@ -658,6 +791,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 19
+    },
+    "position": {
+      "precision": "approximate",
+      "source": {
+        "provider": "OpenStreetMap building and entrances",
+        "url": "https://www.openstreetmap.org/way/40927514",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "shared-building-entrances-midpoint",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://lindbergsvan.se/"
+      ],
+      "reviewNote": "Salongens egen adress är Stationsvägen 27. OSM-entréerna 27A och 27B är två intilliggande noder i samma byggnad 40927514. Placerad mellan dessa entréer på byggnadens fasad, inte vid första träffen eller gatumitt. A/B behöver bekräftas."
     }
   },
   {
@@ -670,13 +817,21 @@
     "address": "Pumpsbacksgatan 13",
     "postalCode": "871 31",
     "originalAddress": "Pumpsbacksgatan 13, 871 31 Härnösand",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 62.6333037,
+      "lng": 17.9442174
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Ingen adress hittades.",
-      "query": "Pumpsbacksgatan 13, 871 31 Härnösand, Sverige",
-      "fetchedAt": "2026-11-17T10:05:23.783Z"
+      "provider": "OpenStreetMap",
+      "status": "approximate-position",
+      "reason": "Namngiven frisör-POI Making beauty i Härnösand vid Pumpbacksgatan. Registret skriver Pumpsbacksgatan 13. Verksamhetsnamn och ort matchar; husnummer/entré behöver bekräftas.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Ingen adress hittades.",
+        "query": "Pumpsbacksgatan 13, 871 31 Härnösand, Sverige",
+        "fetchedAt": "2026-11-17T10:05:23.783Z"
+      }
     },
     "people": [
       {
@@ -707,6 +862,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 20
+    },
+    "position": {
+      "precision": "approximate",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10586473063",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-poi-or-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "Namngiven frisör-POI Making beauty i Härnösand vid Pumpbacksgatan. Registret skriver Pumpsbacksgatan 13. Verksamhetsnamn och ort matchar; husnummer/entré behöver bekräftas."
     }
   },
   {
@@ -760,6 +929,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 21
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4714141263",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -867,6 +1046,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 23
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7006776123",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -879,13 +1068,21 @@
     "address": "Göteborgsvägen 25",
     "postalCode": "431 30",
     "originalAddress": "Göteborgsvägen 25, 431 30 Mölndal",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 57.6589158,
+      "lng": 12.0146622
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 431 30, kartunderlaget 431 35.",
-      "query": "Göteborgsvägen 25, 431 30 Mölndal, Sverige",
-      "fetchedAt": "2026-11-17T10:05:30.465Z"
+      "provider": "OpenStreetMap via Nominatim",
+      "status": "address-match",
+      "reason": "OSM-byggnaden har exakt Göteborgsvägen 25 i Mölndal. Postnummer 431 35 i kartunderlaget avviker från 431 30 i registret men ändrar inte byggnadens identitet.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 431 30, kartunderlaget 431 35.",
+        "query": "Göteborgsvägen 25, 431 30 Mölndal, Sverige",
+        "fetchedAt": "2026-11-17T10:05:30.465Z"
+      }
     },
     "people": null,
     "services": null,
@@ -911,6 +1108,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 24
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "OpenStreetMap via Nominatim",
+        "url": "https://www.openstreetmap.org/way/48109123",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-building",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "OSM-byggnaden har exakt Göteborgsvägen 25 i Mölndal. Postnummer 431 35 i kartunderlaget avviker från 431 30 i registret men ändrar inte byggnadens identitet."
     }
   },
   {
@@ -967,13 +1178,21 @@
     "address": "Bredgatan 2",
     "postalCode": "602 21",
     "originalAddress": "Bredgatan 2, 602 21 Norrköping",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 58.591664,
+      "lng": 16.1825733
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Källan anger särskild entré via Sandgatan 1 och bron Spången. Rätt besöksentré behöver bekräftas.",
-      "query": "Bredgatan 2, 602 21 Norrköping, Sverige",
-      "fetchedAt": null
+      "provider": "OpenStreetMap via Photon",
+      "status": "approximate-position",
+      "reason": "Frisörnätverkets uttryckliga besöksanvisning anger ingång via Sandgatan 1 och bron Spången. Placeringen använder den kartlagda adresspunkten Sandgatan 1, inte en gatumittpunkt. Registrets Bredgatan 2 behålls; salongens exakta lokal/entré behöver bekräftas.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Källan anger särskild entré via Sandgatan 1 och bron Spången. Rätt besöksentré behöver bekräftas.",
+        "query": "Bredgatan 2, 602 21 Norrköping, Sverige",
+        "fetchedAt": null
+      }
     },
     "people": [
       {
@@ -1004,6 +1223,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 26
+    },
+    "position": {
+      "precision": "approximate",
+      "source": {
+        "provider": "OpenStreetMap via Photon",
+        "url": "https://www.openstreetmap.org/node/1155327820",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "Frisörnätverkets uttryckliga besöksanvisning anger ingång via Sandgatan 1 och bron Spången. Placeringen använder den kartlagda adresspunkten Sandgatan 1, inte en gatumittpunkt. Registrets Bredgatan 2 behålls; salongens exakta lokal/entré behöver bekräftas."
     }
   },
   {
@@ -1114,13 +1347,21 @@
     "address": "Vårbergsplan 23",
     "postalCode": "127 43",
     "originalAddress": "Vårbergsplan 23, 127 43 Skärholmen",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.2755604,
+      "lng": 17.8886137
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
-      "query": "Vårbergsplan 23, 127 43 Skärholmen, Sverige",
-      "fetchedAt": "2026-11-17T10:05:36.626Z"
+      "provider": "OpenStreetMap",
+      "status": "address-match",
+      "reason": "Namngiven Skönhetsspecialisten-POI vid Vårbergsplan i rätt ort/postnummer. Salongens egen webbplats bekräftar Vårbergsplan 23.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Enbart gata/område hittades, ingen matchande adresspunkt med husnummer.",
+        "query": "Vårbergsplan 23, 127 43 Skärholmen, Sverige",
+        "fetchedAt": "2026-11-17T10:05:36.626Z"
+      }
     },
     "people": [
       {
@@ -1155,6 +1396,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 29
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11991464813",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-poi-or-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.skonhetsspecialisten.se/"
+      ],
+      "reviewNote": "Namngiven Skönhetsspecialisten-POI vid Vårbergsplan i rätt ort/postnummer. Salongens egen webbplats bekräftar Vårbergsplan 23."
     }
   },
   {
@@ -1216,13 +1471,36 @@
     "address": "Dalagatan 68",
     "postalCode": "113 24",
     "originalAddress": "Dalagatan 68, 113 24 Stockholm",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.3440973,
+      "lng": 18.0434146
+    },
     "geocoding": {
       "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 113 24, kartunderlaget 113 23.",
-      "query": "Dalagatan 68, 113 24 Stockholm, Sverige",
-      "fetchedAt": "2026-11-17T10:05:39.337Z"
+      "status": "address-match",
+      "reason": "Salongens egen webbplats bekräftar exakt Dalagatan 68 i Stockholm. Nominatims enda träff är samma gata, husnummer och stad. Postnummeravvikelsen dokumenteras, originaluppgiften ändras inte.",
+      "query": "https://nominatim.openstreetmap.org/search?q=Dalagatan+68%2C+113+24+Stockholm%2C+Sverige&countrycodes=se&format=jsonv2&addressdetails=1&limit=5&accept-language=sv",
+      "fetchedAt": "2026-11-17T10:05:39.337Z",
+      "matchedAddress": "68, Dalagatan, Röda bergen, Vasastaden, Norra innerstadens stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 113 23, Sverige",
+      "osm": {
+        "type": "node",
+        "id": 525451450
+      },
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "review": {
+        "sourceUrl": "https://www.frusoder.se/",
+        "sourceAddress": "Dalagatan 68, 113 24 Stockholm",
+        "reviewedOn": "2026-11-17",
+        "warning": "Nominatim anger postnummer 113 23; registret och salongens kontaktsida anger 113 24.",
+        "entranceVerified": false
+      },
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 113 24, kartunderlaget 113 23.",
+        "query": "Dalagatan 68, 113 24 Stockholm, Sverige",
+        "fetchedAt": "2026-11-17T10:05:39.337Z"
+      }
     },
     "people": [
       {
@@ -1253,6 +1531,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 31
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/525451450",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -1355,6 +1643,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 33
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/778311291",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -1411,13 +1709,21 @@
     "address": "Skånegatan 90",
     "postalCode": "116 37",
     "originalAddress": "Skånegatan 90, 116 37 Stockholm",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.3125229,
+      "lng": 18.0820801
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 116 37, kartunderlaget 116 40.",
-      "query": "Skånegatan 90, 116 37 Stockholm, Sverige",
-      "fetchedAt": "2026-11-17T10:05:43.486Z"
+      "provider": "OpenStreetMap",
+      "status": "address-match",
+      "reason": "OSM har en entrénod med exakt Skånegatan 90, Stockholm. Postnummer 116 40 i geokodaren avviker från 116 37 i registret; gata, nummer, ort och entrépunkt identifierar samma adress.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 116 37, kartunderlaget 116 40.",
+        "query": "Skånegatan 90, 116 37 Stockholm, Sverige",
+        "fetchedAt": "2026-11-17T10:05:43.486Z"
+      }
     },
     "people": [
       {
@@ -1452,6 +1758,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 35
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1509877807",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-entrance",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "OSM har en entrénod med exakt Skånegatan 90, Stockholm. Postnummer 116 40 i geokodaren avviker från 116 37 i registret; gata, nummer, ort och entrépunkt identifierar samma adress."
     }
   },
   {
@@ -1513,13 +1833,21 @@
     "address": "Vartoftagatan 47A",
     "postalCode": "118 30",
     "originalAddress": "Vartoftagatan 47A, 118 30 Stockholm",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.3116277,
+      "lng": 18.0736519
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Husnumret kan inte matchas exakt. Kartunderlaget anger 47A&B; källan anger 47A.",
-      "query": "Vartoftagatan 47A, 118 30 Stockholm, Sverige",
-      "fetchedAt": "2026-11-17T10:05:47.783Z"
+      "provider": "OpenStreetMap",
+      "status": "approximate-position",
+      "reason": "OSM-noden är uttryckligen en gemensam entré med husnummer 47A&B på Vartoftagatan i Stockholm. Registeradressen 47A ingår, men salongens del/entré är inte bekräftad. Inte automatiskt vald som första träff.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Husnumret kan inte matchas exakt. Kartunderlaget anger 47A&B; källan anger 47A.",
+        "query": "Vartoftagatan 47A, 118 30 Stockholm, Sverige",
+        "fetchedAt": "2026-11-17T10:05:47.783Z"
+      }
     },
     "people": [
       {
@@ -1550,6 +1878,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 37
+    },
+    "position": {
+      "precision": "approximate",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/882394051",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-entrance",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "OSM-noden är uttryckligen en gemensam entré med husnummer 47A&B på Vartoftagatan i Stockholm. Registeradressen 47A ingår, men salongens del/entré är inte bekräftad. Inte automatiskt vald som första träff."
     }
   },
   {
@@ -1562,13 +1904,21 @@
     "address": "Hammarby Allé 83",
     "postalCode": "120 63",
     "originalAddress": "Hammarby Allé 83, 120 63 Stockholm",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 59.3037761,
+      "lng": 18.0917616
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 120 63, kartunderlaget 120 62.",
-      "query": "Hammarby Allé 83, 120 63 Stockholm, Sverige",
-      "fetchedAt": "2026-11-17T10:05:49.068Z"
+      "provider": "OpenStreetMap",
+      "status": "address-match",
+      "reason": "OSM har en entrénod med exakt Hammarby Allé 83, Stockholm. Postnummer 120 62 avviker från 120 63, men adresspunkt och ort är entydiga.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 120 63, kartunderlaget 120 62.",
+        "query": "Hammarby Allé 83, 120 63 Stockholm, Sverige",
+        "fetchedAt": "2026-11-17T10:05:49.068Z"
+      }
     },
     "people": [
       {
@@ -1599,6 +1949,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 38
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2516720330",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-entrance",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "OSM har en entrénod med exakt Hammarby Allé 83, Stockholm. Postnummer 120 62 avviker från 120 63, men adresspunkt och ort är entydiga."
     }
   },
   {
@@ -1755,6 +2119,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 41
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/14006227610",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -1767,13 +2141,21 @@
     "address": "Östra Långatan 37D",
     "postalCode": "619 30",
     "originalAddress": "Östra Långatan 37D, 619 30 Trosa",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 58.8971834,
+      "lng": 17.5476211
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Ingen adress hittades.",
-      "query": "Östra Långatan 37D, 619 30 Trosa, Sverige",
-      "fetchedAt": "2026-11-17T10:05:55.386Z"
+      "provider": "OpenStreetMap",
+      "status": "address-match",
+      "reason": "Namngiven frisör-POI Hårateljen har samma webbplats och telefon som salongens egen webbplats. Den bekräftar Östra Långgatan 37D, Trosa. Registrets ursprungliga stavning Östra Långatan behålls för senare rättelse.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Ingen adress hittades.",
+        "query": "Östra Långatan 37D, 619 30 Trosa, Sverige",
+        "fetchedAt": "2026-11-17T10:05:55.386Z"
+      }
     },
     "people": [
       {
@@ -1804,6 +2186,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 42
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8589484119",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-poi-or-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://haarateljen.se/"
+      ],
+      "reviewNote": "Namngiven frisör-POI Hårateljen har samma webbplats och telefon som salongens egen webbplats. Den bekräftar Östra Långgatan 37D, Trosa. Registrets ursprungliga stavning Östra Långatan behålls för senare rättelse."
     }
   },
   {
@@ -1862,6 +2258,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 43
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6917033499",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -1932,6 +2338,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 44
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/719217375",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -2043,6 +2459,16 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 46
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "Nominatim / OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4353770385",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "previously-reviewed-address",
+      "reviewedOn": "2026-11-17"
     }
   },
   {
@@ -2055,13 +2481,21 @@
     "address": "Tamburingatan 5",
     "postalCode": "421 51",
     "originalAddress": "Tamburingatan 5, 421 51 Västra frölunda",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 57.6539806,
+      "lng": 11.9070928
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 421 51, kartunderlaget 421 46.",
-      "query": "Tamburingatan 5, 421 51 Västra frölunda, Sverige",
-      "fetchedAt": "2026-11-17T10:06:02.833Z"
+      "provider": "OpenStreetMap",
+      "status": "address-match",
+      "reason": "OSM-adresspunkt har exakt Tamburingatan 5 i Västra Frölunda/Göteborg. Postnummer 421 46 avviker från 421 51; gata, nummer och ort matchar.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 421 51, kartunderlaget 421 46.",
+        "query": "Tamburingatan 5, 421 51 Västra frölunda, Sverige",
+        "fetchedAt": "2026-11-17T10:06:02.833Z"
+      }
     },
     "people": [
       {
@@ -2092,6 +2526,20 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 47
+    },
+    "position": {
+      "precision": "exact",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2351918207",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-poi-or-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://www.harinspiration.se/frisornatverk.html"
+      ],
+      "reviewNote": "OSM-adresspunkt har exakt Tamburingatan 5 i Västra Frölunda/Göteborg. Postnummer 421 46 avviker från 421 51; gata, nummer och ort matchar."
     }
   },
   {
@@ -2157,13 +2605,21 @@
     "address": "Torggatan 1",
     "postalCode": "221 00",
     "originalAddress": "Torggatan 1, 221 00 Mariehamn",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 60.1008885,
+      "lng": 19.9424265
+    },
     "geocoding": {
-      "provider": "Nominatim / OpenStreetMap",
-      "status": "needs-review",
-      "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 221 00, kartunderlaget 22101.",
-      "query": "Torggatan 1, 221 00 Mariehamn, Finland",
-      "fetchedAt": "2026-11-17T10:06:05.771Z"
+      "provider": "OpenStreetMap",
+      "status": "approximate-position",
+      "reason": "Namngiven Skönhetsmagasinet-POI i Mariehamn nära Torggatan 1. Den egna webbplatsen anger reception Torggatan 1 samt Strandgatan 4B. Photon knyter punkten till Köpmansgatan och postnummer 22101; därför ungefärlig verksamhetspunkt, inte verifierad behandlingsentré.",
+      "previousAssessment": {
+        "provider": "Nominatim / OpenStreetMap",
+        "status": "needs-review",
+        "reason": "Gata och husnummer matchar men postnummer/ort avviker: källan 221 00, kartunderlaget 22101.",
+        "query": "Torggatan 1, 221 00 Mariehamn, Finland",
+        "fetchedAt": "2026-11-17T10:06:05.771Z"
+      }
     },
     "people": [
       {
@@ -2179,7 +2635,7 @@
       "educationStatement": "Enligt nätverkssidan: gått utbildning i hårbottenproblematik"
     },
     "contact": {
-      "website": "https://www.klipphornanydre.se/",
+      "website": "https://skonhetsmagasinet.ax/",
       "bookingUrl": null,
       "email": null,
       "phone": "+358 40 1680082"
@@ -2194,6 +2650,32 @@
       "file": "Haranalys_salongregister.xlsx",
       "sheet": "Salongsregister",
       "row": 49
-    }
+    },
+    "position": {
+      "precision": "approximate",
+      "source": {
+        "provider": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11218584848",
+        "licence": "ODbL-1.0; © OpenStreetMap contributors"
+      },
+      "method": "mapped-poi-or-address",
+      "reviewedOn": "2026-11-17",
+      "supportingUrls": [
+        "https://skonhetsmagasinet.ax/kontakta-oss/"
+      ],
+      "reviewNote": "Namngiven Skönhetsmagasinet-POI i Mariehamn nära Torggatan 1. Den egna webbplatsen anger reception Torggatan 1 samt Strandgatan 4B. Photon knyter punkten till Köpmansgatan och postnummer 22101; därför ungefärlig verksamhetspunkt, inte verifierad behandlingsentré."
+    },
+    "dataCorrections": [
+      {
+        "id": "HA-042",
+        "field": "contact.website",
+        "expectedSourceValue": "https://www.klipphornanydre.se/",
+        "value": "https://skonhetsmagasinet.ax/",
+        "sourceUrl": "https://www.harinspiration.se/frisornatverk.html",
+        "verifiedUrl": "https://skonhetsmagasinet.ax/kontakta-oss/",
+        "reason": "Excelcell K49 har samma länk som föregående salong (K48). Frisörnätverkets ursprungssida och salongens egen webbplats bekräftar skonhetsmagasinet.ax.",
+        "reviewedOn": "2026-11-17"
+      }
+    ]
   }
 ]

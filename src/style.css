@@ -26,6 +26,7 @@
 .filter-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);margin-top:13px;padding-top:9px;font-size:12px}
 .filter-summary .reset-button{padding:3px 0;font-size:12px}
 .map-status{top:46px}
+.salon-popup .position-notice{font-size:12px;background:var(--yellow);padding:6px 9px;border-radius:4px;margin:8px 0}
 @media(min-width:761px){.search-panel{max-width:880px;padding:20px}.filter-groups{gap:16px}.education-options{gap:12px}}
 @media(min-width:1000px){.filter-groups{grid-template-columns:minmax(0,2.3fr) minmax(0,1fr);gap:20px}}
 @media(max-width:480px){.search-panel{padding:13px;margin-top:14px}.education-options{grid-template-columns:1fr}.filter-button{width:100%}}

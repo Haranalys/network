@@ -11,6 +11,7 @@ const snapshotPath = resolve(root, 'docs/import-source.json');
 const result = spawnSync('powershell.exe', ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', resolve(root, 'scripts/read-register.ps1'), '-InputPath', resolve(input), '-OutputPath', snapshotPath], { encoding: 'utf8' });
 if (result.status !== 0) throw new Error(result.stderr || result.error?.message || 'Kunde inte läsa Excel-filen');
 const snapshot = JSON.parse(readFileSync(snapshotPath, 'utf8'));
+const corrections = JSON.parse(readFileSync(new URL('./registry-corrections.json', import.meta.url), 'utf8'));
 const registerPath = resolve(root, 'public/data/salons.json');
 const previous = new Map(existsSync(registerPath) ? JSON.parse(readFileSync(registerPath, 'utf8')).map(salon => [salon.id, salon]) : []);
 const ids = new Set();
@@ -37,12 +38,17 @@ const salons = snapshot.rows.map(({ row, fields: f }) => {
   const coordinates = lat == null ? addressUnchanged ? old.coordinates : null : { lat: Number(lat.replace(',', '.')), lng: Number(lng.replace(',', '.')) };
   if (coordinates && (!Number.isFinite(coordinates.lat) || !Number.isFinite(coordinates.lng) || Math.abs(coordinates.lat) > 90 || Math.abs(coordinates.lng) > 180)) throw new Error(`Ogiltiga koordinater för ${id}`);
   if (f['Bekräftad utbildning / nivå']) throw new Error(`${id}: utbildning måste kopplas till rätt person manuellt före import.`);
+  const websiteCorrection = corrections.find(correction => correction.id === id && correction.field === 'contact.website');
+  if (websiteCorrection && ![websiteCorrection.expectedSourceValue, websiteCorrection.value].includes(f['Webb / social sida'])) {
+    throw new Error(`${id}: ny webblänk i källan behöver granskas mot den sparade rättelsen.`);
+  }
   return {
     id, isDemo: false, isPreliminary: true,
     name: f['Salong / verksamhet'], city: f.Ort, country: f.Land,
     address: f.Gatuadress, postalCode: f.Postnummer, originalAddress: f['Adress enligt sidan'],
     coordinates,
     ...(addressUnchanged && old.geocoding && lat == null ? { geocoding: old.geocoding } : {}),
+    ...(addressUnchanged && old.position && lat == null ? { position: old.position } : {}),
     people: f['Personer enligt sidan']?.split(/;|\s+och\s+/).map(name => ({ name: name.trim(), educations: null })) ?? null,
     services: f['Tjänster som erbjuds']?.split(';').map(service => service.trim()) ?? null,
     daikonRetailer: currentStatus(f['Säljer DAIKON idag']),
@@ -51,7 +57,8 @@ const salons = snapshot.rows.map(({ row, fields: f }) => {
       daikonSymbol: symbol(f['DAIKON-symbol på sidan']),
       educationStatement: f['Utbildning enligt nätverkssidan'],
     },
-    contact: { website: f['Webb / social sida'], bookingUrl: f.Bokningslänk, email: f['E-post'], phone: f.Telefon },
+    contact: { website: websiteCorrection?.value ?? f['Webb / social sida'], bookingUrl: f.Bokningslänk, email: f['E-post'], phone: f.Telefon },
+    ...(websiteCorrection ? { dataCorrections: [websiteCorrection] } : {}),
     notes: f['Anmärkning / namnkälla'],
     verification: { status: f.Kontrollstatus, confirmedAt: f['Bekräftat datum'], needsConfirmation: f['Behöver kompletteras / bekräftas'] },
     source: { file: snapshot.file, sheet: snapshot.sheet, row },

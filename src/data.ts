@@ -11,6 +11,15 @@ export interface Salon {
   address: string | null;
   postalCode: string | null;
   coordinates: { lat: number; lng: number } | null;
+  position?: {
+    precision: 'exact' | 'approximate';
+    source: { provider: string; url: string; licence: string };
+    reviewedOn: string;
+    reviewNote?: string;
+    uncertaintyMeters?: number;
+    supportingUrls?: string[];
+    method?: string;
+  };
   people: { name: string; educations: string[] | null }[] | null;
   services: string[] | null;
   daikonRetailer: boolean | null;
@@ -67,6 +76,11 @@ export function parseSalons(value: unknown): Salon[] {
       || typeof entry.name !== 'string' || !entry.name.trim() || typeof entry.isDemo !== 'boolean') return fail();
     ids.add(entry.id);
     if (entry.isPreliminary != null && typeof entry.isPreliminary !== 'boolean') return fail();
+    if (entry.position != null && (!record(entry.position)
+      || !['exact', 'approximate'].includes(String(entry.position.precision))
+      || !record(entry.position.source)
+      || !['provider', 'url', 'licence'].every(key => typeof (entry.position as { source: Record<string, unknown> }).source[key] === 'string')
+      || typeof entry.position.reviewedOn !== 'string')) return fail();
     if (![entry.country, entry.originalAddress, entry.notes].every(nullableText)) return fail();
     if (entry.legacy != null && (!record(entry.legacy)
       || ![entry.legacy.diplomaSymbol, entry.legacy.daikonSymbol].every(value => value === true || value === null)

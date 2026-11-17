@@ -122,7 +122,7 @@ function openSalonPopup(salon: Salon, marker: L.Marker) {
   const popup = document.createElement('div');
   popup.className = 'salon-popup';
   const location = address(salon) || [salon.city, salon.country].filter(Boolean).join(', ');
-  popup.innerHTML = `<h3>${escape(salon.name)}</h3>${location ? `<p>${escape(location)}</p>` : ''}${peopleDetails(salon)}${qualificationBadge(salon)}${educationDetails(salon)}${retailerBadge(salon)}${contactLinks(salon)}`;
+  popup.innerHTML = `<h3>${escape(salon.name)}</h3>${location ? `<p>${escape(location)}</p>` : ''}${salon.position?.precision === 'approximate' ? '<p class="position-notice">Ungefärlig placering</p>' : ''}${peopleDetails(salon)}${qualificationBadge(salon)}${educationDetails(salon)}${retailerBadge(salon)}${contactLinks(salon)}`;
   const point = map.latLngToContainerPoint(marker.getLatLng());
   const neighbours = results.filter(other => other.id !== salon.id && other.coordinates
     && point.distanceTo(map!.latLngToContainerPoint([other.coordinates.lat, other.coordinates.lng])) < 44);

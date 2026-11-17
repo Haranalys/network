@@ -2,7 +2,7 @@
 
 En fristående, statisk webbplats med Vite, TypeScript och Leaflet. Sökning, lista och karta använder samma filtrerade register. Allt sker i webbläsaren; ingen databas eller server krävs.
 
-**Lokal testversion: preliminära, ej aktualitetskontrollerade uppgifter från frisörnätverket.** Registret har 42 Excel-poster: 41 i Sverige och en i Mariehamn, Åland, Finland. Efter separat geokodning har 14 entydiga adressmatchningar fått sparade koordinater; 28 behöver adresskontroll och finns bara i listan. En adressmatchning bekräftar inte att verksamheten finns kvar eller vilken entré som används. Namn, adresser och kontaktlänkar är bevarade. Lokala kontrollrapporter finns i `docs/geocoding-report.md` och `docs/import-report.md`; de ingår inte i Git-repot.
+**Lokal testversion: preliminära, ej aktualitetskontrollerade uppgifter från frisörnätverket.** Registret har 42 Excel-poster: 41 i Sverige och en i Mariehamn, Åland, Finland. Efter separat geokodning har 28 positioner sparats (22 exakta adress-/verksamhetspunkter och 6 ungefärliga); 14 behöver adresskontroll och finns bara i listan. En adressmatchning bekräftar inte att verksamheten finns kvar eller vilken entré som används. Namn, adresser och kontaktlänkar är bevarade. Lokala kontrollrapporter finns i `docs/geocoding-report.md` och `docs/import-report.md`; de ingår inte i Git-repot.
 
 ## Starta på Windows
 
@@ -99,7 +99,7 @@ node scripts/geocode-register.mjs --apply
 
 `--fetch` är endast för en avsiktligt initierad ny engångsgenomgång efter adresskorrigeringar och hämtar bara frågor som inte redan är cachade. Skriptet skickar endast adressuppgifter, en förfrågan i taget med minst 1,15 sekunder mellan anrop, identifierande User-Agent och utan automatiska återförsök. Inga privata/confidentiella uppgifter ska skickas. Läs alltid [Nominatims användningspolicy](https://operations.osmfoundation.org/policies/nominatim/) före en ny körning: högst ett anrop per sekund, en maskin/tråd för mindre engångsjobb, cache och attribuering krävs; återkommande mängdhämtning avråds och autocomplete är förbjudet. Det är ingen generell geokodningstjänst för besökare. Geokodade data kommer från OpenStreetMap, © OpenStreetMap contributors, [ODbL](https://www.openstreetmap.org/copyright).
 
-Ingen gatupunkt eller ortsmitt accepteras som ersättning för husnummer. Gata, exakt husnummer, land och postnummer (eller ort när postnummer saknas) måste stämma. Avvikande postnummer, flera skilda adresspunkter och otydliga adresser lämnas för manuell kontroll.
+Ingen gatupunkt eller ortsmitt accepteras som ersättning för husnummer. Automatisk matchning kräver samma gata, exakt husnummer, land och postnummer (eller ort när postnummer saknas). En manuell granskning kan acceptera en unik adressposition med avvikande postnummer om salongens egen webbplats bekräftar exakt gata, husnummer och ort. Då dokumenteras källan och postnummeravvikelsen i geocoding.review, originaladressen bevaras och tidigare bedömning sparas under previousAssessment. Detta har gjorts för HA-002 Cayenne och HA-024 Fru Söder. Flera skilda adresspunkter och otydliga träffar lämnas utan position. Den lokala rapporten docs/marker-audit-report.md jämför registret med faktiskt renderade markörer och listar alla kvarstående kontrollpunkter.
 
 ## Besökarvyn och markörer
 
@@ -137,3 +137,13 @@ Projektets remote är `https://github.com/Haranalys/network.git`. Att spara käl
 Källkod, konfiguration, tester, importverktyg, lokalt typsnitt med licens och `public/data/salons.json` ingår. Excel-register, hela `docs/` med privata källsnapshotar/kontrollrapporter/råcache, `.env`-filer, nyckelfiler, lokala verktygsinställningar, `node_modules`, byggresultat och testbilder undantas via `.gitignore` och ligger kvar lokalt.
 
 Bygge och ordinarie tester fungerar med bara repots filer. Testet som jämför mot hela Excel-snapshoten körs endast om den privata filen finns lokalt och markeras annars som överhoppat. Kontroll mot råa geokodningssvar görs också endast när lokal cache finns; giltighet och metadata för de publicerade koordinaterna kontrolleras alltid. Inga privata arbetsunderlag behövs för webbplatsen.
+
+## Positionernas precision och rättade källdata
+
+Varje placerad salong har position.precision (exact eller approximate), position.source (leverantör, URL, licens), position.reviewedOn och vid behov position.method, supportingUrls och reviewNote. Dessa granskningsuppgifter är skilda från besökartexten. Endast ungefärliga positioner får texten **Ungefärlig placering** i popupen. Exakt betyder matchad adress/namngiven verksamhetspunkt, inte GPS-verifierad entré. Redan granskade koordinater ändras inte vid komplettering.
+
+Avvikande postnummer stoppar inte en manuellt granskad träff om gata, husnummer/byggnad och ort kan bekräftas. Delade husnummer bedöms mot byggnad och kontakter. Vid känd byggnad/verksamhetspunkt men osäker del eller entré används approximate; godtyckliga gatu-/ortscentrum används inte. Flyttförslag och verkligt tvetydiga uppgifter ligger i den lokala rapporten docs/position-review-report.md.
+
+Kompletteringen använder återanvändbara OpenStreetMap-data via Nominatim, Photon och OSM:s objekt-API, med ODbL-attribuering. [Photons villkor](https://photon.komoot.io/) tillåter rimlig användning. Uppslag görs endast vid separat manuell genomgång, seriellt med cache. Inga koordinater från Google Maps har kopierats. Råcache och granskningsrapporter finns lokalt i docs och följer inte med till GitHub.
+
+Skönhetsmagasinets webblänk rättas mot den synliga textlänken på frisörnätverkets ursprungssida och salongens egen webbplats. Excel K49 har felaktigt samma mål som K48. Källsidan har också en felaktig logotypbildlänk men korrekt webbtextlänk. Rättelsen finns i scripts/registry-corrections.json och postens dataCorrections. Importen bevarar precision/källa vid oförändrad adress och tillämpar rättelsen igen. Alla 42 poster och 36 normaliserade webb-/bokningslänkar har kontrollerats; ingen ytterligare felkoppling hittades. Det garanterar inte att samtliga äldre webbplatser fortfarande fungerar.

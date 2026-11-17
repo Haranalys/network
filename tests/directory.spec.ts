@@ -1,4 +1,8 @@
 import { test, expect } from '@playwright/test';
+import registry from '../public/data/salons.json' with { type: 'json' };
+const positionedCount = registry.filter(salon => salon.coordinates).length;
+const diplomaPositionedCount = registry.filter(salon => salon.coordinates && salon.legacy.diplomaSymbol).length;
+const combinedPositionedCount = registry.filter(salon => salon.coordinates && salon.legacy.diplomaSymbol && salon.legacy.daikonSymbol).length;
 
 test('kompakt register visar bara positiva DAIKON-markeringar och söker i alla poster', async ({ page }) => {
   const errors: string[] = [];
@@ -7,7 +11,7 @@ test('kompakt register visar bara positiva DAIKON-markeringar och söker i alla 
   await expect(page.getByRole('heading', { name: 'Hitta hjälp nära dig' })).toBeVisible();
   await expect(page.locator('.salon-card')).toHaveCount(42);
   await expect(page.locator('.salon-card .daikon-badge')).toHaveCount(13);
-  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(14);
+  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(positionedCount);
   await expect(page.locator('.search-panel')).toBeVisible();
   await expect(page.locator('.symbol-legend')).toHaveCount(0);
   await expect(page.locator('.salon-card .qualification-badge .diploma')).toHaveCount(31);
@@ -23,8 +27,8 @@ test('kompakt register visar bara positiva DAIKON-markeringar och söker i alla 
   await expect(page.locator('a[href="tel:0704522415"]')).toBeVisible();
   await page.getByRole('searchbox').fill('Mariehamn');
   await expect(page.locator('.salon-card')).toContainText('Finland');
-  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(0);
-  await expect(page.locator('.salon-card a[href="https://www.klipphornanydre.se/"]')).toBeVisible();
+  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(1);
+  await expect(page.locator('.salon-card a[href="https://skonhetsmagasinet.ax/"]')).toBeVisible();
   await page.getByRole('searchbox').fill('finns-inte');
   await expect(page.getByText('Inga salonger hittades')).toBeVisible();
   await page.locator('.empty-state button').click();
@@ -69,12 +73,12 @@ test('filterknappar fungerar med tangentbord, kombineras och återställs med Re
   await page.keyboard.press('Enter');
   await expect(diploma).toHaveAttribute('aria-pressed', 'true');
   await expect(page.locator('.salon-card')).toHaveCount(31);
-  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(10);
+  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(diplomaPositionedCount);
   await retailer.focus();
   await page.keyboard.press('Space');
   await expect(retailer).toHaveAttribute('aria-pressed', 'true');
   await expect(page.locator('.salon-card')).toHaveCount(13);
-  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(4);
+  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(combinedPositionedCount);
   await expect(page.locator('#result-count')).toHaveText('13 av 42 salonger');
   await trained.click();
   await expect(page.locator('.salon-card')).toHaveCount(13);
@@ -95,7 +99,7 @@ test('filterknappar fungerar med tangentbord, kombineras och återställs med Re
   await page.getByRole('searchbox').fill('Göteborg');
   await page.locator('.filter-summary').getByRole('button', { name: 'Rensa alla' }).click();
   await expect(page.locator('.salon-card')).toHaveCount(42);
-  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(14);
+  await expect(page.locator('.leaflet-marker-icon')).toHaveCount(positionedCount);
   await expect(page.locator('#result-count')).toHaveText('42 av 42 salonger');
   await expect(page.getByRole('searchbox')).toHaveValue('');
   for (const button of [trained, diploma, retailer]) await expect(button).toHaveAttribute('aria-pressed', 'false');
@@ -144,7 +148,7 @@ test('geokodning anropas aldrig vid sidbesök och alla placerade träffar ryms i
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto('/');
-    await expect(page.locator('.leaflet-marker-icon')).toHaveCount(14);
+    await expect(page.locator('.leaflet-marker-icon')).toHaveCount(positionedCount);
     await expect.poll(async () => {
       const map = (await page.locator('#map').boundingBox())!;
       for (const marker of await page.locator('.leaflet-marker-icon').all()) {
@@ -163,4 +167,16 @@ test('felaktigt register ger tydligt fel', async ({ page }) => {
   await expect(page.getByText('Registret är inte tillgängligt')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Försök igen' })).toBeVisible();
   await expect(page.getByRole('searchbox')).toBeDisabled();
+});
+
+ test('ungefärlig placering visas i popup utan att källanteckningar läcker ut', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('searchbox').fill('Hamnsalongerna');
+  await expect(page.locator('.salon-card')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Visa Hamnsalongerna på kartan' }).click();
+  await expect(page.locator('.salon-popup .position-notice')).toHaveText('Ungefärlig placering');
+  await expect(page.locator('.salon-popup')).not.toContainText('OSM');
+  await page.getByRole('searchbox').fill('Anita Oskarsson');
+  await page.getByRole('button', { name: 'Visa Anita Oskarsson på kartan' }).click();
+  await expect(page.locator('.salon-popup .position-notice')).toHaveCount(0);
 });
